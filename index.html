@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My News Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <h1>My News Website</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <ul>
+                            <li>
+                                <h4 data-category="general">Home</h4>
+                            </li>
+
+                            <li>
+                                <h4 data-category="technology">Technology</h4>
+                            </li>
+                            <li>
+                                <h4 data-category="sports">Sports</h4>
+                            </li>
+                            <li>
+                                <h4 data-category="business">Business</h4>
+                            </li>
+                            <li>
+                                <h4 data-category="entertainment">Entertainment</h4>
+                            </li>
+                        </ul>
+            </nav>
+        </div>
+
+        <!-- Search Bar Section -->
+        <div class="search-bar">
+            <input type="text" id="search-input" placeholder="Search news...">
+            <button id="search-button">Search</button>
+        </div>
+    </header>
+
+    <!-- Main Content Section -->
+    <section class="main-content">
+        <div class="container" id="news-container">
+            <!-- Articles will be inserted here by JavaScript -->
+        </div>
+
+        <!-- Pagination Container -->
+        <div class="pagination-container" id="pagination-container">
+            <!-- Pagination buttons will be inserted here by JavaScript -->
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 My News Website | All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
